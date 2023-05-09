@@ -7,6 +7,7 @@
     "jsx": "react", //использовать jsx синтаксис
     "allowJs": true, //разрешить импорт js файлов
     "moduleResolution": "node", //разрешить импорт модулей node
+    "baseUrl": "./", //путь к корневой папке проекта
     "esModuleInterop": true, //разрешить импорт модулей es6 в стиле commonjs
     "allowSyntheticDefaultImports": true, //разрешить синтетический импорт по умолчанию
   },
