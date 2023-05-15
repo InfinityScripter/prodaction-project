@@ -8,6 +8,9 @@
     "allowJs": true, //разрешить импорт js файлов
     "moduleResolution": "node", //разрешить импорт модулей node
     "baseUrl": "./", //путь к корневой папке проекта
+    "paths": {
+      "*": ["./src/*"] //пути для импорта модулей
+    },
     "esModuleInterop": true, //разрешить импорт модулей es6 в стиле commonjs
     "allowSyntheticDefaultImports": true, //разрешить синтетический импорт по умолчанию
   },
