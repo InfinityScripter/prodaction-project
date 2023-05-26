@@ -1,4 +1,4 @@
-declare module "*.scss" {
+declare module '*.scss' {
   interface IClassNames {
     [className: string]: string;
   }
@@ -6,28 +6,29 @@ declare module "*.scss" {
   export = classNames;
 }
 
-declare module "*.svg" {
-  import React from "react";
+declare module '*.svg' {
+  import React from 'react';
+
   const SVG: React.VFC<React.SVGProps<SVGSVGElement>>;
   export default SVG;
 }
 
-declare module "*.png" {
+declare module '*.png' {
   const content: any;
   export default content;
 }
 
-declare module "*.jpg" {
+declare module '*.jpg' {
   const content: any;
   export default content;
 }
 
-declare module "*.jpeg" {
+declare module '*.jpeg' {
   const content: any;
   export default content;
 }
 
-declare module "*.gif" {
+declare module '*.gif' {
   const content: any;
   export default content;
 }
