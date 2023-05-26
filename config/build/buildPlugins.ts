@@ -22,5 +22,6 @@ export function buildPlugins({
       // прокидывает переменные в сборку
       __IS_DEV__: JSON.stringify(isDev),
     }),
+    new webpack.HotModuleReplacementPlugin(),
   ];
 }
