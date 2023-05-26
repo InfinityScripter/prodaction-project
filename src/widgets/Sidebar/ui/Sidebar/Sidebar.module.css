@@ -22,4 +22,8 @@
   border-top: 1px solid var(--border-color);
 }
 
+.lang {
+  margin-left: 20px;
+}
+
 /*# sourceMappingURL=Sidebar.module.css.map */
