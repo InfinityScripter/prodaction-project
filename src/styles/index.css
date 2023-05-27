@@ -26,18 +26,18 @@ select {
 }
 
 :root {
-  --bg-color: #D1E0EC;
-  --inverted-bg-color: #251F99;
+  --bg-color: #d1e0ec;
+  --inverted-bg-color: #251f99;
   --primary-color: #23aadb;
   --secondary-color: #23b0db;
-  --inverted-primary-color: #12E6A6;
+  --inverted-primary-color: #12e6a6;
   --inverted-secondary-color: #0c946c;
 }
 
 .app.dark {
-  --bg-color: #251F99;
-  --inverted-bg-color: #D1E0EC;
-  --primary-color: #12E6A6;
+  --bg-color: #251f99;
+  --inverted-bg-color: #d1e0ec;
+  --primary-color: #12e6a6;
   --secondary-color: #23b0db;
   --inverted-primary-color: #23aadb;
   --inverted-secondary-color: #23aadb;
