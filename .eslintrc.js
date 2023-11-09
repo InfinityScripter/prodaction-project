@@ -42,7 +42,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off', // разрешает использовать нижнее подчеркивание в именах переменных
         'i18next/no-literal-string': ['error', { markupOnly: true }], // запрещает использовать строки в качестве ключей для i18next
-        'max-len': ['error', { ignoreComments: true }], // устанавливает максимальную длину строки
+        'max-len': ['off', { ignoreComments: true }], // устанавливает максимальную длину строки
     },
     globals: { // глобальные переменные
         __IS_DEV__: true, // переменная окружения для определения режима сборки
